@@ -1,17 +1,50 @@
 package org.example;
+import java.util.ArrayList;
+import java.util.Scanner;
+import java.util.List;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        Scanner input=new Scanner(System.in);
+    int age = input.nextInt();
+    String name = input.nextLine();
+    String memberID = input.next();
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-        }
+
+
+
+    System.out.println("1.Add Member 2.Display Members 3.Search by ID 4.Remove Member 5.Exit");
+    System.out.println("Enter Your Choice:");
+    int choice = Integer.parseInt(input.nextLine());
+    switch (choice) {
+        case 1:
+            System.out.print("Enter Member ID:");
+            String MemberID = input.nextLine();
+            System.out.print("Enter Name:");
+            String Name = input.nextLine();
+            System.out.print("Enter Age:");
+            int Age = Integer.parseInt(input.nextLine());
+
+            Member member = new Member(MemberID, Name, Age);
+            member.add(newMember);
+            System.out.println("Members added!!");
+            break;
+        case 2:
+            member.displayDetails();
+            break;
+        case 3:
+            break;
+        case 4:
+            break;
+        case 5:
+            System.out.println("Exit");
+            break;
+        default:
+            System.out.println("Invalid Choice");
+
+    }
+
+
+
     }
 }

@@ -1,0 +1,75 @@
+# OOP Coding Test — Review and Reflection
+
+## 1. My Original Examination Grade
+
+### Task 1 — /40
+**My mark:30
+
+**Why I awarded this mark: I rewarded my self this mark because I had all of the code done the only problem was that it didn't print for some reason
+
+### Task 2 — /40
+**My mark:15
+
+**Why I awarded this mark: I have the array list and a menu it does not repeat until exit is selected 
+I have and add member objects i was struggling with my display details but it should be all correct.
+i had added a find member but sadly didnt have enough time to implement it at the very end.
+
+
+### Task 3 — /20
+**My mark:3
+
+**Why I awarded this mark:I have a remove member from array list but itt doesn't ask for member id 
+
+**Total self-assessed grade:48 /100
+
+## 2. Corrections and Improvements
+
+Describe two or three important problems you identified
+in your original code:
+In my Original code I had problems with my displayDetails.
+I also had forgotten how to use a switch case since i thought it was different too c programming
+During the exam i also just had poor time management which means i couldnt get my code completed
+
+Explain what you changed and why it works now.
+I changed my if statements to a switch case. I also changed how it adds new members from the menu.
+
+## 3. Reflection
+
+**What did you understand during the examination
+but struggle to implement?**
+I understood everything I was doing I just struggled implementing it because we had done everything just the labs.
+
+**What was the most important thing you learned
+from correcting your code?**
+That I had the general idea I just struggled with implementing it correctly
+
+**What would you do differently in your next
+coding test?**
+What I would do differently would be to have better time management and go over the labs and lecture notes more than I did.
+
+
+---
+
+## Review lab assessment and mark recovery
+
+The **review lab** is graded separately out of 20 marks:
+
+| Review criterion | Maximum marks |
+|---|---:|
+| Original self-assessment and supporting evidence | 4 |
+| Explanation of mistakes and Java concepts | 6 |
+| Corrections and improvements | 4 |
+| Testing and demonstration | 4 |
+| Reflection | 2 |
+| **TOTAL** | **20** |
+
+You can recover **up to 30% of the marks you lost** in the original examination. The actual amount depends on your review lab grade. Your lecturer's examination grade, **not your self-awarded mark**, is used in the calculation.
+
+**Marks recovered = (100 − original exam mark) × 0.30 × (review lab mark ÷ 20)**
+
+**Revised exam mark = original exam mark + marks recovered**
+
+For example, an original examination mark of 40/100 and a review lab mark of 16/20 would recover 14.4 marks, giving a revised result of **54.4/100**.
+
+The aim is to show that you understand your mistakes and can explain your improvements. Simply copying a working solution does not demonstrate this understanding.
+
