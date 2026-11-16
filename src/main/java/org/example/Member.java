@@ -31,7 +31,9 @@ public class Member {
     }
 
     List<Member> members=new ArrayList<>();
-    public void addMember(Member member){
+
+    public void addMember(Member member)
+    {
         members.add(member);
     }
     public void findMembers(){

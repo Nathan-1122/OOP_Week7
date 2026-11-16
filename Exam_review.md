@@ -16,28 +16,37 @@ i had added a find member but sadly didnt have enough time to implement it at th
 
 
 ### Task 3 — /20
-**My mark:5
+**My mark:3
 
 **Why I awarded this mark:I have a remove member from array list but itt doesn't ask for member id 
 
-**Total self-assessed grade:50 /100
+**Total self-assessed grade:48 /100
 
 ## 2. Corrections and Improvements
 
 Describe two or three important problems you identified
-in your original code. Explain what you changed and
-why it works now.
+in your original code:
+In my Original code I had problems with my displayDetails.
+I also had forgotten how to use a switch case since i thought it was different too c programming
+During the exam i also just had poor time management which means i couldnt get my code completed
+
+Explain what you changed and why it works now.
+I changed my if statements to a switch case. I also changed how it adds new members from the menu.
 
 ## 3. Reflection
 
 **What did you understand during the examination
 but struggle to implement?**
+I understood everything I was doing I just struggled implementing it because we had done everything just the labs.
 
 **What was the most important thing you learned
 from correcting your code?**
+That I had the general idea I just struggled with implementing it correctly
 
 **What would you do differently in your next
 coding test?**
+What I would do differently would be to have better time management and go over the labs and lecture notes more than I did.
+
 
 ---
 
